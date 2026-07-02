@@ -1,4 +1,4 @@
-# Valorant Economy Coach
+# Valorant  Coach
 
 Pulls match data from Riot's API, extracts round-by-round economy decisions,
 stores it, and uses Claude to generate plain-English coaching feedback.
@@ -61,7 +61,7 @@ Don't start the dashboard until `main.py` runs cleanly end to end in the termina
 This is a hard rule for this project specifically — a UI on top of broken data
 just hides the bug.
 
-## Known gotchas
+## Known
 
 - Valorant API routing uses shard clusters (`na`, `eu`, `ap`, `kr`), not the
   platform IDs (`na1`, `euw1`) you may have seen in League tutorials.
